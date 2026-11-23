@@ -3,6 +3,7 @@
 <head>
 <base target="_top">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Toko Istana Buku</title>
 <style>
 :root{
@@ -339,7 +340,7 @@ function raw(fn) {
 
 // Kalau halaman ini di-hosting DI LUAR Apps Script (mis. GitHub Pages) supaya kamera langsung bisa dipakai,
 // isi dengan URL web app Apps Script (yang berakhiran /exec). Kalau dipakai di dalam Apps Script, biarkan kosong.
-const API_URL = "https://script.google.com/macros/s/AKfycbyoqEbG0wQUyXp2vv5wnO_Khu610c5mQ0uu7-8gFYeiDENTTIqGOoy30q1YNcUbtMUBlg/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbxd9jfvCeU6loA27TpMgPNJSZ4oskAi_ALYxbNGrV54r1pU88c47FU-SC4JROaLGPaRiA/exec";
 
 async function fetchApi_(fn, args) {
   if (!API_URL) throw new Error("API_URL belum diisi di index.html");
